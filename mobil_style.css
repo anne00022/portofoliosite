@@ -1,0 +1,156 @@
+@media screen and (max-width: 900px) {
+  /* MENU */
+  header {
+    padding: 19px 40px;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  #projekter {
+    font-size: 0.7rem;
+  }
+
+  #om {
+    font-size: 0.7rem;
+  }
+
+  li {
+    margin-left: 10px;
+  }
+
+  /* INDEX */
+  .index_grid {
+    display: unset;
+  }
+
+  .index_text_grid {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .anna_forside_img {
+    padding: 30px 40px 20px 190px;
+  }
+
+  #logo_ind {
+    font-size: 2.7rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    align-self: center;
+  }
+
+  .footer_grid {
+    align-content: center;
+    margin: 26px auto 19px auto;
+  }
+
+  .f1 {
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  /* OM MIG */
+  .grid_om {
+    display: unset;
+  }
+
+  #foto_anna {
+    position: unset;
+    width: 100%;
+    height: auto;
+  }
+
+  .overskrift_om,
+  #fed_tekst_om {
+    margin: 50px 0 40px 0;
+  }
+
+  .tema_grid_text {
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+  .skills_foto {
+    display: none;
+  }
+
+  .multi_text {
+    font-size: 0.7rem;
+    padding-top: 18px;
+  }
+
+  .list {
+    padding-right: 8%;
+    font-size: 0.9rem;
+  }
+
+  .skills_text2 {
+    font-size: 0.9rem;
+    line-height: 32px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+
+  /* TEMASIDER */
+
+  .tema_grid {
+    display: unset;
+  }
+
+  .tema_img_1 {
+    position: unset;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  #overvejelser_grid {
+    padding-left: 20px;
+  }
+
+  body.tema3 p {
+    padding-left: 20px;
+  }
+}
+
+/* PROJEKTER */
+
+@media screen and (max-width: 500px) {
+  .pro_grid_mobil {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_projekter {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  .pro_grid_mobil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .main_pro {
+    aspect-ratio: 412/823.5;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1365px) {
+  .naste_projekt {
+    display: none;
+  }
+}
+
+/* TEMASIDER */
